@@ -4,26 +4,46 @@ body {
     padding: 0;
 }   
 
-#main-picture {
-    width:100%;
+.linked>li{
+    text-decoration: none;
+    display: inline-block;
 }
-section{
-    height: 50vh 0;
+
+.links>a{
+    text-decoration: none;
+    color: #900C3F;
+    font-family: 'Buda', sans-serif;
+    font-size: 1em;
+    font-weight: bold;
+    padding: 10px;
 }
-    .number-one {
+
+.pic {
+    width: 20%;
+    height: max-content;
+}
+
+.img-responsive{
+    width: 100%;
+}
+
+.first-section {
     background-color: black;
-    position: relative;
+    /* position: relative; */
     z-index: 10;
     clip-path: polygon(0 0, 100% 0, 100% calc(100% - 9vw), 0 100%);
     margin-bottom: -9vw;
+    height: 65vh;
 }
 
-.number-two {
+
+.second-section {
     background-color: #ffffff;
+    height: 100vh;
 }
 
 .name {
-    font-family: 'Buda', cursive;
+    font-family: 'Poiret One',cursive;
     color: white;
 }
 
