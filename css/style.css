@@ -1,5 +1,5 @@
 body {
-    background-color: rgb(255, 255, 255);
+    background-color: rgba(255, 255, 255, 0.788);
     margin: 0;
     padding: 0;
 }   
@@ -11,40 +11,117 @@ body {
 
 .links>a{
     text-decoration: none;
-    color: #900C3F;
+    color: rgb(179, 9, 74);
     font-family: 'Buda', sans-serif;
-    font-size: 1em;
+    font-size: 1.2em;
     font-weight: bold;
     padding: 10px;
+}
+.name {
+    font-family: 'Poiret One',cursive;
+    color: white;
 }
 
 .pic {
     width: 20%;
-    height: max-content;
+    height: fit-content;
 }
 
 .img-responsive{
     width: 100%;
+    z-index:-10;
 }
 
 .first-section {
-    background-color: black;
+    /* background-image: linear-gradient(to right, rgb(4,4,4), rgb(8,8,8)); */
+    background-color: rgb(4, 4, 4);
     /* position: relative; */
     z-index: 10;
     clip-path: polygon(0 0, 100% 0, 100% calc(100% - 9vw), 0 100%);
     margin-bottom: -9vw;
-    height: 65vh;
+    max-height: 80vh;
 }
 
 
 .second-section {
-    background-color: #ffffff;
+    background-color: rgba(255, 255, 255, 0.788);
     height: 100vh;
 }
 
-.name {
-    font-family: 'Poiret One',cursive;
-    color: white;
+.third-section {
+    height: 100vh;
+}
+
+.fourth {
+    background-color: rgba(255, 255, 255, 0.788);
+    height:15vh;
+}
+
+.fourth ul{
+    margin:0;
+    padding:0;
+    display:flex;
+    position: relative;
+    top:2rem;
+    left:50%;
+    transform: translate(-40%,-40%);
+}
+.shiny>li {
+    list-style-type:none;
+    margin: 0 15px;
+}
+
+.icons > a{
+    position:relative;
+    display:block;
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    line-height: 60px;
+    background: #333;
+    border-radius: 50%;
+    font-size: 3rem;
+    color: #666;
+    transition: 0.5s;
+}
+
+.icons > a:before{
+    content:'';
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height: 100%;
+    border-radius: 55%;
+    background-color: rgb(179, 9, 74);
+    transition: 0.5s;
+    transform: scale(0.9);
+    z-index: -1;
+}
+
+.icons > a:hover:before{
+    transform: scale(1.1);
+    box-shadow: 0 0 1.5rem  rgb(179, 9, 74);
+}
+
+.icons > a:hover{
+    color: rgb(179, 9, 74);
+    box-shadow: 0 0 .4rem rgb(179, 9, 74);
+    text-shadow: 0 0 .4rem rgb(179, 9, 74);
+}
+
+
+
+
+
+
+
+
+
+.footer {
+    background-color: #24242A;
+    width: 100%;
+    height: 8vh;
 }
 
 .col-1{
