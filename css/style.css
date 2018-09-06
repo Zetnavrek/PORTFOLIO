@@ -14,6 +14,12 @@ hr{
     margin:0;
 }
 
+#background {
+    background-image: url("../assets/images/descarga.jpg");
+    background-position: left;
+    
+    background-repeat: no-repeat;
+}
 .linked>li{
     text-decoration: none;
     display: inline-block;
@@ -38,14 +44,6 @@ hr{
     font-family: 'Poiret One', cursive;
     color: white;
     font-size: 1.3rem;
-}
-
-.pic {
-    width: 20%;
-}
-
-.img-responsive{
-    width: 100%;
 }
 
 .first-section {
