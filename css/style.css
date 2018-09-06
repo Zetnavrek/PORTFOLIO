@@ -4,10 +4,16 @@ body {
     padding: 0;
 }   
 
+hr{
+    background-color: rgb(179, 9, 74);
+    width: 15%;
+    border: 1px solid rgb(179, 9, 74);
+}
 .row{
     padding:0;
     margin:0;
 }
+
 .linked>li{
     text-decoration: none;
     display: inline-block;
@@ -50,7 +56,7 @@ body {
     /* position: relative; */
     clip-path: polygon(0 0, 100% 0, 100% calc(100% - 9vw), 0 100%);
     margin-bottom: -9vw;
-    max-height: 80vh;
+    max-height: 100vh;
 }
 
 
@@ -85,17 +91,17 @@ body {
 
 .fourth {
     background-color: rgba(255, 255, 255, 0.712);
-    height:15vh;
+    height:50vh;
 }
 
 .fourth ul{
     margin:0;
     padding:0;
     display:flex;
-    position: relative;
+    position:relative;
     top:2rem;
-    left:50%;
-    transform: translate(-40%,-40%);
+
+    /*transform: translate(-50%,-50%);*/
 }
 .shiny>li {
     list-style-type:none;
@@ -123,7 +129,7 @@ body {
     left:0;
     width:100%;
     height: 100%;
-    border-radius: 55%;
+    border-radius: 50%;
     background-color: rgb(179, 9, 74);
     transition: 0.5s;
     transform: scale(0.9);
