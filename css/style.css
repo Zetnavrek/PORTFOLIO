@@ -37,17 +37,15 @@ hr{
 .description {
     font-family: 'Poiret One', cursive;
     color: white;
-    font-size: 1.2rem;
+    font-size: 1.3rem;
 }
 
 .pic {
-    width: 25%;
-    height: fit-content;
+    width: 20%;
 }
 
 .img-responsive{
     width: 100%;
-    z-index:-10;
 }
 
 .first-section {
@@ -55,8 +53,9 @@ hr{
     background-color: rgb(4, 4, 4);
     /* position: relative; */
     clip-path: polygon(0 0, 100% 0, 100% calc(100% - 9vw), 0 100%);
-    margin-bottom: -9vw;
+    margin-bottom: 0;;
     max-height: 100vh;
+    height: 50vh;
 }
 
 
@@ -67,9 +66,11 @@ hr{
 
 .title{
     font-family: 'Roboto', sans-serif;
-
 }
 
+.title{
+    left: 45%;
+}
 
 .paragraphs{
     font-family: 'Roboto',sans-serif;
@@ -147,20 +148,37 @@ hr{
     text-shadow: 0 0 .4rem rgb(179, 9, 74);
 }
 
-
-
-
-
-
-
-
-
 .footer {
     background-color: #24242A;
     width: 100%;
     height: 8vh;
 }
 
+
+
+@media screen and (min-width: 480px) and (max-width:780px){
+    .description {
+        font-family: 'Poiret One', cursive;
+        color: white;
+        font-size: 1.1rem;
+    }
+    .name {
+        font-family: 'Poiret One', cursive;
+        color: white;
+        font-size: 2.19rem;
+        font-weight: 400;
+    }
+}
+
+@media screen and (max-width: 480px){
+    .description{
+        font-size:0.7rem;
+    }
+
+    .name {
+        font-size: 1.8rem;
+    }
+}
 /* .col-1{
     width: 8.333%;
 }
