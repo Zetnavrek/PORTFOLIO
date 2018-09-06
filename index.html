@@ -11,15 +11,18 @@
     <title>Portfolio</title>
 </head>
 <body>
-    <section class="container-fluid">
+    <section class="container-fluid" id = "home">
         <nav class="navbar fixed-top navbar-expand-lg navbar-dark">
-            <a class="navbar-brand" href="#">Fixed top</a>
+            <a class="navbar-brand" href="#"></a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon">
                 </span>
             </button>
             <div class="collapse navbar-collapse justify-content-end">
                 <ul class="linked">
+                    <li class="links">
+                        <a href="#home">Home</a>
+                    </li>
                     <li class="links">
                         <a href="#about-me">About</a>
                     </li>
@@ -36,7 +39,7 @@
     <section class="first-section slider">
         <div class="row align-items-center col-sm-8 col-md-8 col-lg-8">
             <div class= "pic">
-                <img class="img-responsive" id= "main-picture" src="assets/images/lips.jpg" alt="">
+                <img class="img-responsive" id= "main-picture" src="assets/images/descarga.jpg" alt="">
             </div>
             <div class= "offset-2">
                 <p class="row name">Elvia Villalobos</p>
@@ -45,47 +48,65 @@
         </div>  
     </section>
     <section class="second-section" id="about-me">
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <h4 class="row col-12 justify-content-center about-title">About</h4>
-        <div class="">
-            <div class="row">
-                <div class="col-sm-5 col-md-5 col-lg-5" id="my-pic">
-                    <a href="https://placeholder.com"><img src="https://via.placeholder.com/350x300"></a>
-                </div>
-                <div class="col-sm-5 col-md-5 col-lg-5">
-                    <p>
-                     
+        <div class="container align-items-end">
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <div class="row col-12 justify-content-center">
+                <h3 class="title">About</h3>
+            </div>
+            <br>
+            <br>
+            <br>
+            <div class="row photo align-items-end">
+                <div class="col-sm-10 col-md-5 col-lg-6">
+                    <h4 class="paragraphs">Hi there!</h4>
+                    <p class= "paragraphs">
+                        I just can say that I'm a person who loves teaching as much as learning. <br>
+                        I see and love the beauty in simplicity. <br>
+                        I'm a passionate of creating all kind of tools that helps to develop and improve good ideas. <br>
+                        That's why after spending a lot of time of my life seeking for something meaningful I became a Front End Developer.
                     </p>
                 </div>
-                <div>
+                <div class="col-sm-10 col-md-5 col-lg-5" id="my-pic">
+                    <img src="assets/images/IMG-3345.JPG">
                 </div>
-            </section>
-            <section class="third-section" id="projects">
-                <div class="row col-12 justify-content-around">
-                    <a class = "col-" href="https://placeholder.com"><img src="https://via.placeholder.com/350x150"></a>
-                    <a class = "" href="https://placeholder.com"><img src="https://via.placeholder.com/350x150"></a>
-                    <a class = "" href="https://placeholder.com"><img src="https://via.placeholder.com/350x150"></a>
-                </div>
-            </section>
-            <section class="row col-12 fourth" id="contact">
-                <ul class="shiny">
-                    <li class="icons"><a href=""><i class="fab fa-github" aria-hidden="true"></i></a></li>
-                    <li class="icons"><a href=""><i class="fab fa-linkedin" aria-hidden="true"></i></a></li>
-                </ul>
-            </section>
-            <footer class="footer">
+            </div>
+        </div>
+    </section>
+    <section class="third-section" id="projects">
+        <div class="container">
+            <div class="row col-12 justify-content-around">
                 
-            </footer>
-            <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-            <script src="js/bootstrap.bundle.min.js"></script>
-            <script src="js/bootstrap.min.js"></script>
-            <script src="js/jquery.ripples-min.js"></script>
-            <script src="js/app.js"></script>
-        </body>
-        </html>
+                <a class = "img-fluid projects card" href="https://github.com/Zetnavrek/movie-search" target="_blank">
+                    <img src="assets/images/movies.PNG">
+                </a>
+                <a class = "img-fluid projects card" href="https://github.com/Zetnavrek/insta-collage-gallery" target="_blank">
+                    <img src="assets/images/gallery.jpg">
+                </a>
+                <a class = "img-fluid projects card" href="https://github.com/Zetnavrek/data-dashboard" target="_blank">
+                    <img src="assets/images/data-dashboard.PNG">
+                </a>
+            </div>
+        </div>
+    </section>
+    <section class="row col-12 fourth" id="contact">
+        <ul class="shiny">
+            <li class="icons"><a href=""><i class="fab fa-github" aria-hidden="true"></i></a></li>
+            <li class="icons"><a href=""><i class="fab fa-linkedin" aria-hidden="true"></i></a></li>
+        </ul>
+    </section>
+    <footer class="footer">
+        
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.ripples-min.js"></script>
+    <script src="js/app.js"></script>
+</body>
+</html>

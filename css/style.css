@@ -14,7 +14,7 @@ body {
 }
 
 .links>a{
-    text-decoration: none;
+    /*text-decoration: none;*/
     color: rgb(179, 9, 74);
     font-family: 'Roboto', sans-serif;
     font-size: 1.3em;
@@ -35,7 +35,7 @@ body {
 }
 
 .pic {
-    width: 20%;
+    width: 25%;
     height: fit-content;
 }
 
@@ -53,19 +53,34 @@ body {
     max-height: 80vh;
 }
 
-.about-title{
-    font-family: 'Roboto', sans-serif;
-    
-}
-
 
 .second-section {
     background-color: rgba(255, 255, 255, 0.712);
-    height: 100vh;
+    height: 150vh;
+}
+
+.title{
+    font-family: 'Roboto', sans-serif;
+
+}
+
+
+.paragraphs{
+    font-family: 'Roboto',sans-serif;
+}
+
+.photo img {
+    border-radius: 40%;
+    max-width: 100%;
 }
 
 .third-section {
     height: 100vh;
+}
+
+.projects img {
+    height: 150px;
+    width:300px;
 }
 
 .fourth {
@@ -140,7 +155,7 @@ body {
     height: 8vh;
 }
 
-.col-1{
+/* .col-1{
     width: 8.333%;
 }
 .col-2{
@@ -175,4 +190,4 @@ body {
 }
 .col-12{
     width: 100%;
-}
+} */
